@@ -14,16 +14,28 @@
         <div class="logo-img">
             <img src="./Images/arplane-icon.png">
         </div><h1>Globe Trekker</h1></div>
-    <div class="nav-links-wrapper">
-        <a class="navlink" href="home">Home</a>
-        <a class="navlink" href="about">About</a>
-        <a class="navlink" href="destinations">Destinations</a>
-        <a class="navlink" href="stories">Stories</a>
-        <a class="navlink" href="contact">Contact</a>
-    </div>
+            <nav>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="openSidebar-button">
+                <span class="material-symbols-outlined">menu</span>
+            </label>
+
+            <div class="nav-links-wrapper">
+            <label for="sidebar-active" class="closeSidebar-button">
+                <span class="material-symbols-outlined">close</span>
+            </label>
+             <a class="navlink" href="home">Home</a>
+             <a class="navlink" href="about">About</a>
+             <a class="navlink" href="destinations">Destinations</a>
+             <a class="navlink" href="stories">Stories</a>
+             <a class="navlink" href="contact">Contact</a>
+        </div>
+        </nav>
+            
+    
     <div class="search-CTA">
         <div class="search-wrapper">
-            <span class="material-symbols-outlined">search</span>
+            <span class="material-symbols-outlined.nav-search">search</span>
         <input  class="search"  type="text" placeholder="Search destinations, stories..." name="search" id="search"  >
         </div>
         <button class="filled black" >Find my trip</button>
